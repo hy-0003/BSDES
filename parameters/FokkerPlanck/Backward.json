@@ -1,0 +1,42 @@
+{
+    "Params": {
+      "equation_params": {
+        "D0": 5.0,
+        "nmin": 3.0,
+        "dim": 3,
+        "a": 1.0,  
+        "l": 1.0,     
+        "theta_min": 0.0,  
+        "theta_max": 3.14159265359,  
+        "phi_min": 0.0,    
+        "phi_max": 6.28318530718   
+      },
+      "model_params": {
+        "n": [12, 12],  
+        "x": [0.0, 0.0, 1.0],  
+        "t": 0,
+        "T": 0.5,
+        "N": 50,
+        "l": 1.0,
+        "area": [ [0, 3.141592653589793], [0, 6.283185307179586] ]
+      },
+      "train_params": {
+        "epoch": 2000,
+        "batch_size": 256,
+        "learning_rate": 0.002,
+        "change_lr": false,
+        "lr_change": 0,
+        "train_valid_n": [[12]],  
+        "train_valid_x": [[0.0, 0.0, 1.0]]  
+      },
+      "MC_params":{
+        "MC_valid_n": [12, 12],  
+        "MC_valid_x": [0.0, 0.0, 1.0],
+        "t": 0,
+        "T": 0.5,
+        "N": 50,
+        "l": 1.0
+      }
+    }
+  }
+

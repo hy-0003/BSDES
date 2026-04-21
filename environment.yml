@@ -1,0 +1,10 @@
+name: bsdes
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11.11
+  - pytorch
+  - cpuonly
+  - numpy
+  - pandas
