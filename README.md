@@ -21,7 +21,9 @@ $$
 \frac{\partial}{\partial t} u(\mathbf{x}, n, t) + \mathcal{L}_{\text{diff}} u(\mathbf{x}, n, t) + \mathcal{L}_{\text{jump}} u(\mathbf{x}, n, t) + f\left(\mathbf{x}, n, t, u, \boldsymbol{\sigma}^\top \nabla_{\mathbf{x}} u\right) = 0
 $$
 
-where $\mathbf{x} \in \mathbb{S}^2$ is the spatial coordinate, $n$ is the polymer state, $\mathcal{L}_{\text{diff}}$ is the spatial diffusion operator on the sphere, and $\mathcal{L}_{\text{jump}}$ governs the discrete Markov transitions of the polymer. And the terminal condition $u(n,x,T)=g(n,x)$.
+where $\mathbf{x} \in \mathbb{S}^2$ is the spatial coordinate, $n$ is the polymer state, $\mathcal{L}_{\text{diff}}$ is the spatial diffusion operator on the sphere, and
+
+$\mathcal{L}_{\text{jump}}$ governs the discrete Markov transitions of the polymer. And the terminal condition $u(n,x,T)=g(n,x)$.
 
 
 ## Example
